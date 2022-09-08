@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.main-header {
+    background-color: #87509c;
+}
+
+.navi-menu {
+    padding: 10px 15% 30px 0;
+}
+
+.navi-menu ul {
+    display: flex;
+    justify-content: right;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.navi-menu ul .menu-item {
+    margin: 0 5px;
+    padding: 5px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 11px;   
+    transition: all 
+}
+
+.navi-menu ul .menu-item:hover {
+    background-color: #643a79;
+}
+
+.main-text {
+    margin: auto;
+    padding: 40px 0;
+    max-width: 70%;
+    font-size: 2em;
+    color: white;
+    text-align: center;
+}
+
+.btn {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.35em;
+    color: white;
+    background-color: #eb7d4b;
+    padding: 7px 40px;
+    display: inline-block;
+    margin: 30px auto;
+    align-self: center;
+}
+
+.our-team {
+    margin: 0;
+    background-color: #e7f1f8;
+}
+
+.header-container {
+    padding: 70px 0 10px 0;
+}
+
+.section-header {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.shl {
+    width: 6%;
+}
+
+.header-container h2 {
+    margin-block-end: 0;
+}
+
+.header-container p {
+    text-align: center;
+}
+
+#our-team .header-container h2 {
+    color: #3c4761;
+}
+
+#our-team .shl {
+    border-color: #c8d9e5
+}
+
+.mcircle-container {
+    margin: auto;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.innercircle {
+    background-color: #696969;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    margin: auto;
+    
+}
+
+
+
+
+
+.about {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+}
+
+.acircle-item {
+    display: flex;
+    flex-basis: 50%;
+    font-size:small;
+}
+
+
+ .acircle-item .innercircle,
+.acircle-item .outercircle {
+    display: inline;
+    margin:0;
+    
+} 
+.acircle-item .outercircle {
+    margin-left: 10px;
+    flex-basis: 75%;
+}
+
+.acircle-item .innercircle {
+    flex-shrink: 0;
+}
+
+
+/* .circle-item*** {
+    background-color: none;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+ */
